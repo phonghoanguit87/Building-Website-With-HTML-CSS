@@ -1,0 +1,62 @@
+ul {
+    list-style-type: none;
+    align-self: center;
+    display: inline-block;
+    margin: 3px;
+}
+
+li {
+    float: left;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    border: 1px solid gray;
+    text-align: center;
+    width: 100%;
+}
+
+#articles {
+    border: 0;
+    border-collapse: collapse;
+}
+
+#articles table {
+    height: 350px;
+    text-align: left;
+    border: 1px solid gray;
+}
+
+#articles td {
+    width: 50%;
+}
+
+#articles ul {
+    align-self: left;
+    margin: 0;
+}
+
+#statistics {
+    border: 1px solid gray;
+    text-align: left;
+}
+
+#statistics table {
+    border-spacing: 20px;
+}
+
+#statistics td.count {
+    width: 15%;
+    background-color: beige;
+    border-bottom: 3px solid red;
+}
+
+#statistics td.count b {
+    width: 15%;
+    font-size: xx-large;
+    font-weight: bolder;
+}

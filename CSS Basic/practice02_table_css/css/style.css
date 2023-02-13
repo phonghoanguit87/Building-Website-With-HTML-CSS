@@ -1,0 +1,82 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+table.no-border {
+    border-collapse: collapse;
+}
+
+table.no-border, td, th {
+    border: 1px solid black;
+}
+
+table.table-width-height, table.table-width-height td, table.table-width-height th {
+    border: 1px solid black;
+}
+
+table.table-width-height {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.table-width-height th {
+    height: 50px;
+}
+
+table.text-align, table.text-align td, table.text-align th {
+    border: 1px solid black;
+}
+
+table.text-align {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.text-align th {
+    text-align: left;
+}
+
+table.vertical-align, table.vertical-align td, table.vertical-align th {
+    border: 1px solid black;
+}
+
+table.vertical-align {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.vertical-align td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+table.padding, table.padding td, table.padding th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table.padding {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.padding th, table.padding td {
+    padding: 15px;
+}
+
+table.background-color {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.background-color th, table.background-color td {
+    text-align: left;
+    padding: 8px;
+}
+
+table.background-color tr:nth-child(even){background-color: #f2f2f2}
+
+table.background-color th {
+    background-color: #4CAF50;
+    color: white;
+}

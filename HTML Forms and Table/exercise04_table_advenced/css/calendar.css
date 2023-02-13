@@ -1,0 +1,42 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#days_vn {
+    background-color: orange;
+    color: white;
+}
+
+#days_en {
+    text-align: center;
+}
+
+thead th:first-child {
+    background-color: red;
+}
+
+thead th:last-child {
+    background-color: blue;
+}
+
+tbody td {
+    border: 2px solid gray;
+    text-align: center;
+}
+
+tbody td:first-child,
+thead td:first-child {
+    color: red;
+}
+
+tbody td:last-child,
+thead td:last-child,
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+sub {
+    color: black;
+}

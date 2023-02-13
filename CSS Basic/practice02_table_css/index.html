@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Table in CSS</title>
+</head>
+<body>
+    <h2>Đường viền của bảng</h2>
+    <p>Thêm đường viền cho bảng:</p>
+    <table>
+        <tr>
+            <th>Họ đệm</th>
+            <th>Tên</th>
+        </tr>
+        <tr>
+            <td>Nguyễn Khắc</td>
+            <td>Nhật</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Thị</td>
+            <td>Phương</td>
+        </tr>
+    </table>
+
+    <h2>Tạo viền mảnh cho bảng:</h2>
+    <table class="no-border">
+        <tr>
+            <th>Họ đệm</th>
+            <th>Tên</th>
+        </tr>
+        <tr>
+            <td>Phạm Anh</td>
+            <td>Đới</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Thị</td>
+            <td>Hằng</td>
+        </tr>
+    </table>
+
+    <h2>Sử dụng các thuộc tính width và height</h2>
+    <p>Thiết lập chiều rộng của bảng, và chiều cao của dòng tiêu đề trong bảng:</p>
+
+    <table class="table-width-height">
+        <tr>
+            <th>Họ đệm</th>
+            <th>Tên</th>
+            <th>Tiết kiệm ($)</th>
+        </tr>
+        <tr>
+            <td>Nguyễn Trung</td>
+            <td>Tuyến</td>
+            <td>110</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Thị Xuân</td>
+            <td>Quỳnh</td>
+            <td>170</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Thị Kim</td>
+            <td>Cúc</td>
+            <td>320</td>
+        </tr>
+        <tr>
+            <td>Bùi Thành</td>
+            <td>Trung</td>
+            <td>280</td>
+        </tr>
+    </table>
+
+    <h2>Sử dụng thuộc tính text-align</h2>
+    <p>Thuộc tính dùng để thiết lập căn chỉnh nội dung bên trong ô của bảng theo chiều ngang (căn trái, phải, hoặc giữa):</p>
+
+    <table class="text-align">
+        <tr>
+            <th>Họ đệm</th>
+            <th>Tên</th>
+            <th>Tiết kiệm ($)</th>
+        </tr>
+        <tr>
+            <td>Nguyễn Trung</td>
+            <td>Tuyến</td>
+            <td>110</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Thị Xuân</td>
+            <td>Quỳnh</td>
+            <td>170</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Thị Kim</td>
+            <td>Cúc</td>
+            <td>320</td>
+        </tr>
+        <tr>
+            <td>Bùi Thành</td>
+            <td>Trung</td>
+            <td>280</td>
+        </tr>
+    </table>
+
+    <h2>Sử dụng thuộc tính vertical-align</h2>
+    <p>Thuộc tính dùng để căn chỉnh nội dung trong ô của bảng theo chiều dọc (căn trên, dưới, hoặc ở giữa).</p>
+
+    <table class="vertical-align">
+        <tr>
+            <th>Họ đệm</th>
+            <th>Tên</th>
+            <th>Tiết kiệm ($)</th>
+        </tr>
+        <tr>
+            <td>Nguyễn Trung</td>
+            <td>Tuyến</td>
+            <td>110</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Thị Xuân</td>
+            <td>Quỳnh</td>
+            <td>170</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Thị Kim</td>
+            <td>Cúc</td>
+            <td>320</td>
+        </tr>
+        <tr>
+            <td>Bùi Thành</td>
+            <td>Trung</td>
+            <td>280</td>
+        </tr>
+    </table>
+
+    <h2>Sử dụng thuộc tính padding</h2>
+    <p>Thuộc tính dùng điều chỉnh khoảng cách giữa đường viền và nội dung của ô trong bảng.</p>
+
+    <table class="padding">
+        <tr>
+            <th>Họ đệm</th>
+            <th>Tên</th>
+            <th>Tiết kiệm ($)</th>
+        </tr>
+        <tr>
+            <td>Nguyễn Trung</td>
+            <td>Tuyến</td>
+            <td>110</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Thị Xuân</td>
+            <td>Quỳnh</td>
+            <td>170</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Thị Kim</td>
+            <td>Cúc</td>
+            <td>320</td>
+        </tr>
+        <tr>
+            <td>Bùi Thành</td>
+            <td>Trung</td>
+            <td>280</td>
+        </tr>
+    </table>
+
+    <h2>Thiết lập màu nền cho dòng tiêu đề của bảng</h2>
+    <table class="background-color">
+        <tr>
+            <th>Họ đệm</th>
+            <th>Tên</th>
+            <th>Tiết kiệm ($)</th>
+        </tr>
+        <tr>
+            <td>Nguyễn Trung</td>
+            <td>Tuyến</td>
+            <td>110</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Thị Xuân</td>
+            <td>Quỳnh</td>
+            <td>170</td>
+        </tr>
+        <tr>
+            <td>Nguyễn Thị Kim</td>
+            <td>Cúc</td>
+            <td>320</td>
+        </tr>
+        <tr>
+            <td>Bùi Thành</td>
+            <td>Trung</td>
+            <td>280</td>
+        </tr>
+    </table>
+</body>
+</html>

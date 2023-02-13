@@ -1,0 +1,52 @@
+ul.img {
+    list-style-image: url('./../images/check.png');
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+}
+
+ul.c {
+    list-style-position:inside;
+}
+
+ul.d {
+    list-style-position:outside;
+}
+
+ul.short {
+    list-style: square inside url("./../images/bullet-red.png");
+}
+
+ol.setup_color {
+    background: #ff9999;
+    padding: 20px;
+}
+
+ul.setup_color {
+    background: #3399ff;
+    padding: 20px;
+}
+
+ol.setup_color li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul.setup_color li {
+    background: #cce5ff;
+    margin: 5px;
+}

@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    height: 2000px;
+}
+
+.head {
+    overflow: hidden;
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+}
+
+.head-link {
+    overflow: hidden;
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 60px;
+}
+
+.wrapper {
+    margin-top: 110px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.aside {
+    background-color: #F5F5F5;
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    background-color: #F5F5F5;
+    flex-basis: 70%;
+    margin-left: 5px;
+}
+
+.footer {
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header */
+#header-logo {
+    height: 40px;
+    margin: 5px;
+}
+
+/* head link */
+.head-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-link li {
+    display: inline;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+
+.head-link li:hover {
+    background-color: black;
+    color: white;
+}
+
+/* aside left */
+.aside-block {
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.aside-block:hover {
+    background-color: lightgray;
+}
+
+.aside-block img {
+    width: 100%;
+    height: auto;
+}
+
+/* content block */
+.content-block {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.content-block iframe {
+    width: 100%;
+    height: 500px;
+}
+
+/* common */
+.b-left {
+    border-left: 1px solid black;
+}

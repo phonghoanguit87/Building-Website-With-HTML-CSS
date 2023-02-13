@@ -1,0 +1,35 @@
+body {
+    border: red solid 2px;
+    width: 550px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+}
+
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: black;
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: black;
+}
+
+#row_name {
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+#column_order td {
+    background-color: orange;
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+}

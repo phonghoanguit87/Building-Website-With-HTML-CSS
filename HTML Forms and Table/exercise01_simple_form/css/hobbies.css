@@ -1,0 +1,37 @@
+body {
+    width: 400px;
+    background-color: aqua;
+}
+
+form {
+    background-color:azure;
+}
+
+h2 {
+    background-color: rgb(243, 124, 5);
+    text-align: center;
+    color: rgb(246, 243, 243);
+    padding-top: 15px;
+    height: 40px;
+}
+
+#music {
+    margin-left: 20px;
+}
+
+#gaming {
+    margin-left: 12px;
+}
+
+#read-book {
+    margin-left: 30px;
+}
+
+ #film{
+    margin-left: 18px;
+}
+
+input[name=submit],input[name=reset]  {
+    height: 25px;
+    width: 100px;
+}

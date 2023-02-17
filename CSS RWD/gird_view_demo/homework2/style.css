@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(232, 226, 226);
+}
+
+/* common css */
+.bg-white {
+    background-color: white;
+}
+
+h1 {
+    color: rgb(9, 169, 249);
+}
+
+/* main are css */
+.main {
+    float: left;
+    width: 70%;
+    margin: 0 5px;
+}
+
+.title {
+    padding-left: 10px;
+}
+
+.new__content--title,
+.latest__new--title {
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.new__content--title:hover,
+.latest__new--title:hover {
+    color: red;
+}
+
+.new__content--img {
+    float: left;
+    width: 30%;
+}
+
+.new__content--author {
+    color: rgb(198, 204, 209);
+    font-size: 0.8em;;
+}
+
+.new__content {
+    float: left;
+    width: 100%;
+    margin: 10px;
+}
+
+/* right area css */
+.right {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1px;
+}
+
+.latest-list__title, .blog-list__title {
+    text-align: center;
+}
+
+.latest__new {
+    float: left;
+    width: 100%;
+    margin: 10px;
+}
+
+.latest__new img {
+    float: left;
+    width: 100px;
+}
+
+.latest__new h2 {
+    font-size: 0.6em;
+}
+
+.latest-list__title, .blog-list__title {
+    font-size: 1em;
+    border-bottom: 1px solid black;
+    margin: 10px 10px;
+}
+
+.latest__new--author {
+    color: rgb(198, 204, 209);
+    font-size: 0.3em;;
+}
+
+.blog-list {
+    margin-top: 20px;
+    background-color: white;
+}
+
+.blog-list ul {
+    margin-right: 5px;
+    width: 100%;
+    padding-inline-start: 0px;
+}
+
+.blog-list ul li {
+    list-style-type: none;
+    margin: 10px 10px;
+}
+
+.blog-list ul li:hover {
+    background-color: rgb(173, 177, 177);
+    color: #2805f2;
+}
+
+.blog-list ul li a {
+    width: 100%;
+}
+
+.blog-list ul li a:hover {
+    color: #2805f2;
+}
+
+.blog-list ul li a {
+    text-decoration: none;
+    color: rgb(195, 199, 203);
+}
+
+.border-dash {
+    padding-bottom: 5px;
+    border-bottom: 1px dashed rgb(195, 199, 203);
+}
+
+.add-bulet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(195, 199, 203);
+}
+
+.color-black {
+    color: black;
+}
+
+@media only screen and (max-width:800px) {
+    .main, .right {
+      width: 100%;
+    }
+}

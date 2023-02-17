@@ -1,0 +1,43 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 40px 1fr 40px;
+    grid-template-areas: "header header" "nav nav" "main aside" "footer footer";
+    grid-gap: 10px;
+  }
+  
+  .header {
+    grid-area: header;
+    background-color: lightblue;
+    display: inline-flex;
+  }
+
+  .logo {
+    position: relative;
+    display: block;
+    width: 25%;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+  }
+  
+  .nav {
+    grid-area: nav;
+    background-color: lightgreen;
+  }
+  
+  .main {
+    grid-area: main;
+    background-color: lightcoral;
+  }
+  
+  .aside {
+    grid-area: aside;
+    background-color: rgb(247, 247, 8);
+  }
+  
+  .footer {
+    grid-area: footer;
+    background-color: lightgray;
+  }
+  

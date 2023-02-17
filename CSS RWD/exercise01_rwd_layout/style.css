@@ -1,0 +1,147 @@
+body{
+    font-family: Arial;
+    background-color: #CDCDCD;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* css for header */
+head {
+    width: 100%;
+}
+
+.header__menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    padding:0;
+    margin:0;
+    background-color: #000000;
+    border: 1px solid #CDCDCD;
+}
+
+.header--menu ul, .header--menu li {
+    padding:0;
+    margin:0;
+}
+
+.header__menu li {
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+.header__menu li a {
+    width:100px;
+    height: 30px;
+    display: block;
+    text-decoration:none;
+    text-align: center;
+    line-height: 2em;
+    background-color: black;
+    color: white;
+}
+
+.header__menu li a:hover{
+    background-color: red;
+}
+
+.header__menu--logo {
+    width: 30px;
+}
+
+/* css for main */
+.main {
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+}
+
+.link {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.link a {
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    line-height: 2em;
+} 
+
+.link a:hover{
+    background-color: rgb(55, 197, 233);
+}
+
+.content {
+    float: left;
+    width: 60%;
+    background-color: #ffffff;
+}
+
+.content__welcome, .content__topics {
+    margin: 1%;
+}
+
+.aside {
+    float: left;
+    width: 20%;
+}
+
+.aside {
+    background-color: aquamarine;
+}
+
+.aside__ads {
+    text-align: center;
+    line-height: 5em;
+    border: 1px solid rgb(55, 197, 233);
+}
+
+/* css for footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    float: left;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+
+/* css for media */
+@media only screen and (max-width: 620px) {
+    .header__menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__menu li a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main {
+        margin-top: 150px;
+    }
+
+    .link {
+        width: 100%;
+    }
+    
+    .content {
+        width: 100%;
+    }
+
+    .aside {
+        width: 100%;
+    }
+}

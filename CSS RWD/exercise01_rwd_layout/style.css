@@ -37,6 +37,11 @@ head {
     padding:0;
 }
 
+.header__menu li img {
+    display: block;
+    margin: 0 auto;
+  }
+
 .header__menu li a {
     width:100px;
     height: 30px;
@@ -107,8 +112,8 @@ head {
 
 /* css for footer */
 .footer {
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
     float: left;
     width: 100%;
     background-color: #000000;

@@ -9,49 +9,60 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <ul class="header__menu">
-                <li><img src="./images/logo.png" alt="logo" class="header__menu--logo"></li>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PROJECT</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
+        <div class="row header">
+            <div class="col-12 col-md-10 header--left">
+                <ul class="header--left__menu">
+                    <li><a href="#">Logo</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-2 header--right">
+                <ul class="header--right__loginbtn">
+                    <li><a href="" class="btnlogin">Login</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
         </div>
-        <div class="main">
-            <div class="link">
-                <a href="#">News</a>
-                <a href="#">Hosts</a>
-                <a href="#">Forum</a>
-            </div>
-            <div class="content">
-                <div class="content__welcome">
-                    <h2>What is Lorem Ipsum?</h2>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
-                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                        passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
-                </div>
-                <div class="content__topics">
-                    <h2>Test</h2>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing
-                    </p>
+        <div class="row">
+            <div class="col-12 col-md-2">
+                <div class="slidebar-link">
+                    <ul class="slidebar-link--list">
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="aside">
-                <div class="aside__ads">
-                    <p>ADS</p>
+            <div class="col-12 col-md-8">
+                <div class="content">
+                    <div class="content__welcome">
+                        <h2>What is Lorem Ipsum?</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="content__topics">
+                        <h3>Test</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing</p>
+                    </div>
                 </div>
-                <div class="aside__ads">
-                    <p>ADS</p>
+            </div>
+            <div class="col-12 col-md-2">
+                <div class="aside">
+                    <div class="aside__ads">
+                        <p>ADS</p>
+                    </div>
+                    <div class="aside__ads">
+                        <p>ADS</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="footer">
-            <p>Footer @copyright 2023</p>
+        <div class="row">
+            <div class="col-12 footer">
+                Footer @copyright 2023
+            </div>
         </div>
     </div>
 </body>

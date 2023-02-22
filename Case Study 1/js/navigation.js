@@ -13,4 +13,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
             menu.src = "./images/menu.png";
         }
     }
+
+    let scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1000,
+        speedAsDuration: true
+    });
 });

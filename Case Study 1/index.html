@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/header.banner.css">
     <link rel="stylesheet" href="./css/header.navigation.css">
@@ -21,7 +22,7 @@
 <body>
     <header>
         <!-- banner -->
-        <div class="banner">
+        <div id="banner">
             <img class="logo" src="./images/logo.png" alt="Hart studio logo">
             <div class="banner__content">
                 <h1>Hair Studio</h1>
@@ -31,26 +32,28 @@
                     <a href="#"><span></span>Read More</a>
                 </div>
             </div>
-        </div><!-- end banner -->
+        </div>
+        <!-- end banner -->
         <!-- navigation-->
         <div id="sideNav">
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Testimonial</a></li>
-                    <li><a href="#">Meet Us</a></li>
+                    <li><a href="#banner">Home</a></li>
+                    <li><a href="#feature">Features</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonial">Testimonial</a></li>
+                    <li><a href="#footer">Meet Us</a></li>
                 </ul>
             </nav> 
         </div>
         <div id="close-btn">
             <img id="menu" src="./images/menu.png" alt="close">
-        </div><!-- end navigation-->
+        </div>
+        <!-- end navigation-->
     </header>
     <main>
         <!-- feature -->
-        <div class="feature">
+        <div id="feature">
             <div class="title">
                 <p>FEATURES</p>
                 <h1>Why Choose Us</h1>
@@ -92,9 +95,10 @@
                     <img src="./images/barber-man.jpg">
                 </div>
             </div>
-        </div><!-- end feature -->
+        </div>
+        <!-- end feature -->
         <!-- services -->
-        <div class="services">
+        <div id="services">
             <div class="title">
                 <p>SERVICES</p>
                 <h1>We Provider Better</h1>
@@ -140,9 +144,10 @@
                     </div>
                 </div>
             </div>
-        </div><!-- end services -->
+        </div>
+        <!-- end services -->
         <!-- testimonial -->
-        <div class="testimonial">
+        <div id="testimonial">
             <div class="title">
                 <p>TESTIMONIAL</p>
                 <h1>What Client Says</h1>
@@ -181,9 +186,10 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
                 </div>
             </div>
-        </div> <!-- end testimonial -->
+        </div> 
+        <!-- end testimonial -->
     </main>
-    <footer>
+    <footer id="footer">
         <img class="footer__img" src="./images/footer-img.png" alt="footer image">
         <div class="title">
             <p>CONTACT</p>

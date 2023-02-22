@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid grid-column-start Property</title>
+    <style>
+        header {
+            text-align: center;
+        }
+        main {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 10px;
+            background-color: aquamarine;
+            padding: 10px;
+        }
+
+        main > div {
+            background-color: rgb(6, 244, 164);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+            color: white;
+        }
+
+        .item-1 {
+            grid-column-start: auto;
+            /* grid-column-start: span 4; */
+            grid-column-start: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>The grid-column-start Property</h1>
+            <h3>auto value</h3>
+            <strong>the item will be placedfollowing the initial flow</strong> 
+        </header>
+        <main>
+            <div class="item-1">G</div>
+            <div class="item-2">e</div>
+            <div class="item-2">e</div>
+            <div class="item-3">k</div>
+            <div class="item-4">s</div>
+            <div class="item-5">f</div>
+            <div class="item-6">o</div>
+            <div class="item-6">r</div>
+            <div class="item-1">G</div>
+            <div class="item-2">e</div>
+            <div class="item-2">e</div>
+            <div class="item-3">k</div>
+            <div class="item-4">s</div>
+        </main>
+    </div>
+</body>
+</html>

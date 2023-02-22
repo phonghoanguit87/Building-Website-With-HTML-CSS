@@ -1,0 +1,131 @@
+/* css common */
+body {
+    background-color: #CDCDCD;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    padding: 20px 0;
+}
+
+.header,
+.nav,
+.main,
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: white;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px;
+}
+
+.content {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.aside {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+/* css header */
+.header {
+    display: inline-flex;
+}
+
+.logo {
+    width: 10%;
+}
+
+.banner {
+    width: 90%;
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 2px #2794d7;
+}
+
+/* css nav */
+.nav{
+    height: 30px;
+    padding:0;
+    margin:0;
+    background-color: #000000;
+    border: 1px solid #CDCDCD;
+}
+
+.nav ul, .nav li{
+    padding:0;
+    margin:0;
+}
+
+.nav li{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+.nav li a{
+    width:100px;
+    height: 30px;
+    display: block;
+    text-decoration:none;
+    text-align: center;
+    line-height: 30px;
+    background-color: black;
+    color: white;
+}
+
+.nav ul ul li a{
+    width: 200px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.nav li a:hover{
+    background-color: red;
+}
+
+.nav ul ul{
+   position: absolute;
+   top: 30px;
+   left: 15px;
+   visibility: hidden;
+}
+
+/* css main */
+.main {
+    width: 100%;
+}
+/* css content */
+.content {
+    width: 70%;
+}
+
+/* css aside */
+.aside {
+    width: 100%;
+}
+
+/* css footer */
+.footer {
+    height: 10px;
+    padding:0;
+    margin:0;
+    background-color: #000000;
+    border: 1px solid #CDCDCD;
+    color: white;
+    text-align: center;
+}

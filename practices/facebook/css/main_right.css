@@ -1,0 +1,136 @@
+.main__content--right--stories > div:not(:first-of-type) {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.main__content--right--stories > div > span {
+    margin-left: 5px;
+}
+
+.main__content--right--stories ,
+.main__content--right--your-page {
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.main__content--right--stories > div > a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.right-block-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.your-page__menu {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 5px;
+    border-top: 1px solid rgb(214, 212, 212);
+    border-bottom: 1px solid rgb(214, 212, 212);
+}
+
+.your-page__actions {
+    display: flex;
+
+    padding-top: 5px;
+}
+
+.your-page__actions > div > span {
+    font-size: 12px;
+    color: rgb(203, 206, 206);
+}
+
+.post-avatar {
+    width: 40px;
+    height: 50px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.your-page__info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid rgb(214, 212, 212);
+    border-bottom: 1px solid rgb(214, 212, 212);
+}
+
+.your-page__info--label {
+    border: 2px solid rgb(232, 230, 230);
+    border-radius: 10px;
+}
+
+.your-page__info--label > span {
+    margin: 10px;
+}
+
+.your-page__info--label > span:hover {
+    background-color: rgb(111, 111, 109);
+}
+
+.your-page__info--data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.your-page__info--data span {
+    margin-top: 10px;
+}
+
+.your-page__info--data > span:first-child {
+    font-size: 30px;
+}
+
+.your-page__recent > span {
+    color: rgb(179, 178, 175);
+}
+
+.your-page__recent--content {
+    margin-top: 2px;
+    border: 1px solid rgb(205, 205, 203);
+}
+
+.your-page__recent--content--author {
+    display: flex;
+    border-bottom: 1px solid rgb(205, 205, 203);
+}
+
+.your-page__recent--content--author > div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.your-page__recent--content--author > div > span:last-child {
+    color: #cdcdcf;
+}
+
+.your-page__recent--content--info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+button {
+    color: white;
+    background-color: #4766B0;
+    border: 0;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 12px;
+}

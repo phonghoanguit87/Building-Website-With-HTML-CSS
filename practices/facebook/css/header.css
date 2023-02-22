@@ -1,0 +1,74 @@
+/***
+ * css for header
+***/
+
+.header {
+    background-color: #4766B0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
+.header__left > .logo {
+    padding-top: 6px;
+    padding-left: 6px;
+}
+
+.small-logo {
+    width: 10px;
+    height: 10px;
+}
+
+.header__left {
+    display: flex;
+}
+
+.header__left--searchbox {
+    display: flex;
+    color: gray;
+    background-color: white;
+    border: 1px solid #35518A;
+    border-radius: 8px;
+    padding: 1px 5px;
+    margin: 5px 5px;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 70%;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.header__right a {
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    font-size: 16px;
+}
+
+.header__right a:first-child {
+    text-decoration: none;
+    color: white;
+}
+
+div.header__right a:not(:first-of-type){
+    padding: 5px;
+    border-left: 2px solid black;
+}
+
+.header__right--logo {
+    margin: auto;
+}
+
+.border-left {
+    border-left: 2px solid gray;
+    padding-left: 3px;
+}
